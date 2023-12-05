@@ -3,6 +3,8 @@ Stilizzo lo sfondo del body, ovvero di tutta la pagian
 */
 body{
     background-color: lightgray;
+    margin: 0;
+    padding: 0;
 }
 /*
 Stilizzo il nav
@@ -18,7 +20,7 @@ nav{
 Dichiaro le dimensioni del Logo
 */
 #logo{
-    width: 60px;
+    width: 65px;
     height: auto;
 }
 /*
@@ -26,6 +28,7 @@ Rendo h1 (tag BLOCK) in un tag INLINE-BLOCK
 */
 h1{
     display: inline-block;
+    
 }
 /*
 Dichiaro le dimensiomne del mio Contenitore*/
@@ -35,6 +38,9 @@ Dichiaro le dimensiomne del mio Contenitore*/
     background-color: white;
    
 }
+/*
+l'header ha un tot di marhgine dal body che lo contiene
+*/
 header{
     margin: 0px;
 }
@@ -59,10 +65,16 @@ Stilizzo la riga
 hr{
     border: 2px black solid;
 }
+/*
+Stilizzo il main che dev avere margine dal body come l'header
+*/
 main{
     margin-left: 50px;
     margin-bottom: 50px;
 }
+/*
+Costrusisco i cerchi intorno alle 'tick' e alle croos
+*/
 .tick{
     background-color: white;
     border: 2px solid green;
@@ -70,13 +82,16 @@ main{
 
     color: green;
 }
-.x{
+.cross{
     background-color: white;
     border: 2px solid red;
     border-radius: 50%;
 
     color: red;
 }
+/*
+Stilizzo le DUE classi in modo che ogniqualvolta si ripetano eseguano gli stessi ordini
+*/
 .button{
     color: black;
     border-color: transparent;

@@ -14,8 +14,9 @@
     <!-- Creo un div Contenitore che andrò a stilizzare su css dichiarando grandeza e colore dello sfondo-->
     <div id="Container">
 
+ <!-- Creo una section nell'header dove andrò a inserire i bottoni-->
      <header>
-
+   
         <section id="Buttons">
             <button id="first-button">Add Task</button>
             <button id="second-button">Add Section</button>
@@ -25,18 +26,21 @@
       <hr>
 
       <main>
-
+       <!-- 
+        Nel main quando andrò a scrivere i bottoni che devo stilizzare,inserisco nell'elemento due classi in modo che tramite il css ogniqualvolta 
+        la pagina di codice troverà altri elementi con la stessa classe esegua sempre gli stssi comandi
+       -->
         <p><strong>&#9660; New Task </strong></p>
         <p><span class="tick">&#10003;</span> Quaterly Newsletter <button class="button Editorial"><small>Editorial</small></button></p>
  
         <p><strong>&#9660; Today </strong></p>
         <p><span class="tick">&#10003;</span> Recruiting blog post <button class="button Editorial"><small>Editorial</small></button></p> 
         <p><span class="tick">&#10003;</span> Mobile app luaunch  <button class="button Q1"><small>Q1 Goals</small></button></p> 
-        <p><span class="x">&#10007;</span> Interview John H. <button class="button Recruiting"><small>Recruiting</small></button></p>
+        <p><span class="cross">&#10007;</span> Interview John H. <button class="button Recruiting"><small>Recruiting</small></button></p>
         <p><span class="tick">&#10003;</span> Summit update to mobile storefronts <button class="button Mobile"><small>Mobile</small></button></p> 
         
         <p><strong>&#9660; Upcoming </strong></p>
-        <p><span class="x">&#10007;</span> Schedule meeting with Alex</p>
+        <p><span class="cross">&#10007;</span> Schedule meeting with Alex</p>
         <p><span class="tick">&#10003;</span> Homepage refresh <button class="button Website"><small>Website</small></button></p> 
         <p><span class="tick">&#10003;</span> Onboard new Sales team members <button class="button Sales"><small>Sales</small></button></p> 
         <p><span class="tick">&#10003;</span> Review editorial calendar <button class="button Editorial"><small>Editorial</small></button></p> 
