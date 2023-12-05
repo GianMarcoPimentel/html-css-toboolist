@@ -24,4 +24,35 @@ Rendo h1 (tag BLOCK) in un tag INLINE-BLOCK
 h1{
     display: inline-block;
 }
-
+/*
+Dichiaro le dimensiomne del mio Contenitore*/
+#Container{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+   
+}
+header{
+    margin: 0px;
+}
+#Buttons{
+    padding: 20px;
+    margin-left: 50px;
+}
+#first-button{
+    background-color: rgb(10, 12, 137);
+    border-color: rgb(10, 12, 137);
+    border-radius: 10%;
+    color: white;
+}
+#second-button{
+    background-color: white;
+    border-color: lightgray;
+    color: lightgray;
+}
+/*
+Stilizzo la riga
+*/
+hr{
+    border: 2px black solid;
+}
