@@ -10,12 +10,15 @@ Stilizzo il nav
 nav{
     background-color: white;
     margin-bottom: 40px;
+    padding: 10px;
+    vertical-align: middle;
+    display: flex;
 }
 /*
 Dichiaro le dimensioni del Logo
 */
 #logo{
-    width: 100px;
+    width: 60px;
     height: auto;
 }
 /*
