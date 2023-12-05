@@ -12,3 +12,8 @@ nav{
 h1{
     display: inline-block;
 }
+#Container{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
