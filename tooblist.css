@@ -56,3 +56,13 @@ Stilizzo la riga
 hr{
     border: 2px black solid;
 }
+main{
+    margin-left: 50px;
+}
+#tick{
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 50%;
+
+    color: green;
+}
