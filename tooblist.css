@@ -1,19 +1,27 @@
+/*
+Stilizzo lo sfondo del body, ovvero di tutta la pagian
+*/
 body{
     background-color: lightgray;
 }
+/*
+Stilizzo il nav
+*/
 nav{
     background-color: white;
     margin-bottom: 40px;
 }
+/*
+Dichiaro le dimensioni del Logo
+*/
 #logo{
     width: 100px;
     height: auto;
 }
+/*
+Rendo h1 (tag BLOCK) in un tag INLINE-BLOCK
+*/
 h1{
     display: inline-block;
 }
-#Container{
-    width: 1000px;
-    margin: auto;
-    background-color: white;
-}
+
