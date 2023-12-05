@@ -1,0 +1,19 @@
+body{
+    background-color: lightgray;
+}
+nav{
+    background-color: white;
+    margin-bottom: 40px;
+}
+#logo{
+    width: 100px;
+    height: auto;
+}
+h1{
+    display: inline-block;
+}
+#Container{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
