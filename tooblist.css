@@ -77,3 +77,32 @@ main{
 
     color: red;
 }
+.button{
+    color: black;
+    border-color: transparent;
+    border-radius: 15%;
+}
+.Editorial{
+    background-color: blue;
+    color: white;
+}
+.Q1{
+    background-color: purple;
+    color: white;
+}
+.Recruiting{
+    background-color: rgb(0, 128, 21);
+    color: white;
+}
+.Mobile{
+    background-color: orange;
+    color: white;
+}
+.Website{
+    background-color: pink;
+    color: white;
+}
+.Sales{
+    background-color: red ;
+    color: white;
+}
