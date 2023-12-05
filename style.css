@@ -64,6 +64,7 @@ Stilizzo la riga
 */
 hr{
     border: 2px black solid;
+    margin-bottom: 40px;
 }
 /*
 Stilizzo il main che dev avere margine dal body come l'header
@@ -120,4 +121,7 @@ Stilizzo le DUE classi in modo che ogniqualvolta si ripetano eseguano gli stessi
 .Sales{
     background-color: red ;
     color: white;
+}
+.paragraph{
+    margin-bottom: 40px;
 }
