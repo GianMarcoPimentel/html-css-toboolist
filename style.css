@@ -1,33 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+}
 /*
 Stilizzo lo sfondo del body, ovvero di tutta la pagian
 */
 body{
     background-color: lightgray;
-    margin: 0;
-    padding: 0;
+    
+    font-family: sans-serif;
 }
 /*
 Stilizzo il nav
 */
 nav{
     background-color: white;
-    margin-bottom: 40px;
     padding: 10px;
-    vertical-align: middle;
+    vertical-align: middle; /*setta la verticalità di un elemento inline/inlineblock*/
     display: flex;
 }
 /*
 Dichiaro le dimensioni del Logo
 */
 #logo{
-    width: 65px;
+    width: 50px;
     height: auto;
+    vertical-align: middle;
+    
 }
 /*
 Rendo h1 (tag BLOCK) in un tag INLINE-BLOCK
 */
 h1{
     display: inline-block;
+    font-size: 48px
+    
     
 }
 /*
@@ -35,60 +42,80 @@ Dichiaro le dimensiomne del mio Contenitore*/
 #Container{
     width: 1000px;
     margin: auto;
+    margin-bottom: 20px;
     background-color: white;
+    border-radius: 10px;
    
 }
 /*
 l'header ha un tot di marhgine dal body che lo contiene
 */
 header{
-    margin: 0px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
 }
 #Buttons{
-    padding: 20px;
-    margin-left: 50px;
+    margin-bottom: 15px;
 }
 #first-button{
-    background-color: rgb(10, 12, 137);
-    border-color: rgb(10, 12, 137);
-    border-radius: 10%;
+    padding: 8px 16px;
+    background-color: #47ADF1;
+    border-color: #47ADF1;
+    border-radius: 8px;
     color: white;
+
+    margin-left: 90px;
+    margin-top: 25px;
 }
 #second-button{
+    padding: 8px 16px;
     background-color: white;
-    border-color: lightgray;
-    color: lightgray;
+    border-color: #CFD4D8;
+    color: #CFD4D8;
+    border-radius: 8px;
 }
 /*
 Stilizzo la riga
 */
 hr{
-    border: 2px black solid;
+    border: 1px solid #CFD4D8;
     margin-bottom: 40px;
 }
 /*
 Stilizzo il main che dev avere margine dal body come l'header
 */
 main{
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin-left: 90px;
 }
 /*
 Costrusisco i cerchi intorno alle 'tick' e alle croos
 */
 .tick{
+    padding: 2px;
     background-color: white;
-    border: 2px solid green;
+    border: 2px solid #88D1C2;
     border-radius: 50%;
 
-    color: green;
+    color: #88D1C2;
 }
 .cross{
+    padding: 2px;
     background-color: white;
-    border: 2px solid red;
+    border: 2px solid #EB5953;
     border-radius: 50%;
 
-    color: red;
+    color: #EB5953;
+}
+.title{
+    margin-bottom: 10px;
+}
+.paragraph{
+    margin-bottom: 20px;
+}
+.paragraph.last{
+    margin-bottom: 30px;
 }
 /*
 Stilizzo le DUE classi in modo che ogniqualvolta si ripetano eseguano gli stessi ordini
@@ -99,29 +126,42 @@ Stilizzo le DUE classi in modo che ogniqualvolta si ripetano eseguano gli stessi
     border-radius: 15%;
 }
 .Editorial{
-    background-color: blue;
+    background-color: #45ABEA;
     color: white;
+    border-radius: 8px;
+    padding: 0px 8px;
 }
 .Q1{
-    background-color: purple;
+    background-color: #9C72E4;
     color: white;
+    border-radius: 8px;
+    padding: 0px 8px;
 }
 .Recruiting{
-    background-color: rgb(0, 128, 21);
+    background-color: #64C0A9;
     color: white;
+    border-radius: 8px;
+    padding: 0px 8px;
 }
 .Mobile{
-    background-color: orange;
+    background-color: #F29E33;
     color: white;
+    border-radius: 8px;
+    padding: 0px 8px;
 }
 .Website{
-    background-color: pink;
+    background-color: #D863A1;
     color: white;
+    border-radius: 8px;
+    padding: 0px 8px;
 }
 .Sales{
-    background-color: red ;
+    background-color: #B0C926 ;
     color: white;
+    border-radius: 8px;
+    padding: 0px 8px;
 }
-.paragraph{
-    margin-bottom: 40px;
+footer{
+    height: 30px;
+
 }
